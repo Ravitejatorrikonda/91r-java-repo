@@ -22,7 +22,7 @@ public class Test4 {
 
 	public static void main(String[] args) {
 		 Xparent x=new Zchild();
-		      Integer i=(Integer)x.getnumber();//number
+		      Number i=(Number)x.getnumber();//number
 		      System.out.println(i);
 
 	}
