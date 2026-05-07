@@ -14,7 +14,7 @@ interface D1{
 }
 class E1 implements C1,D1{
 	public void getData() {
-		D1.printer();
+		D1.printer();//clasName.super.meth()/  clasName.mwethd()t
 		C1.printer();
 		System.out.println("this is E1 class");
 	}
